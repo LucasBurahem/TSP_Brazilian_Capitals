@@ -1,0 +1,135 @@
+{
+    "objective_value": 12287694.93,
+    "Route": {
+        "1": {
+            "city": "São Paulo",
+            "lat": -23.5587,
+            "lng": -46.625
+        },
+        "2": {
+            "city": "Rio de Janeiro",
+            "lat": -22.925,
+            "lng": -43.225
+        },
+        "3": {
+            "city": "Minas Gerais",
+            "lat": -19.915,
+            "lng": -43.915
+        },
+        "12": {
+            "city": "Espírito Santo",
+            "lat": -20.324,
+            "lng": -40.366
+        },
+        "7": {
+            "city": "Bahia",
+            "lat": -12.97,
+            "lng": -38.48
+        },
+        "21": {
+            "city": "Sergipe",
+            "lat": -10.9,
+            "lng": -37.12
+        },
+        "13": {
+            "city": "Alagoas",
+            "lat": -9.62,
+            "lng": -35.73
+        },
+        "5": {
+            "city": "Pernambuco",
+            "lat": -8.0756,
+            "lng": -34.9156
+        },
+        "17": {
+            "city": "Paraíba",
+            "lat": -7.1011,
+            "lng": -34.8761
+        },
+        "14": {
+            "city": "Rio Grande do Norte",
+            "lat": -5.78,
+            "lng": -35.24
+        },
+        "6": {
+            "city": "Ceará",
+            "lat": -3.75,
+            "lng": -38.58
+        },
+        "18": {
+            "city": "Piauí",
+            "lat": -5.095,
+            "lng": -42.78
+        },
+        "15": {
+            "city": "Maranhão",
+            "lat": -2.516,
+            "lng": -44.266
+        },
+        "9": {
+            "city": "Pará",
+            "lat": -1.45,
+            "lng": -48.48
+        },
+        "25": {
+            "city": "Tocantins",
+            "lat": -10.2377,
+            "lng": -48.2878
+        },
+        "10": {
+            "city": "Goiás",
+            "lat": -16.72,
+            "lng": -49.3
+        },
+        "20": {
+            "city": "Mato Grosso do Sul",
+            "lat": -20.45,
+            "lng": -54.6166
+        },
+        "19": {
+            "city": "Mato Grosso",
+            "lat": -15.5696,
+            "lng": -56.085
+        },
+        "24": {
+            "city": "Acre",
+            "lat": -9.9666,
+            "lng": -67.8
+        },
+        "23": {
+            "city": "Rondônia",
+            "lat": -8.75,
+            "lng": -63.9
+        },
+        "11": {
+            "city": "Amazonas",
+            "lat": -3.1,
+            "lng": -60.0
+        },
+        "26": {
+            "city": "Roraima",
+            "lat": 2.8161,
+            "lng": -60.666
+        },
+        "22": {
+            "city": "Amapá",
+            "lat": 0.033,
+            "lng": -51.05
+        },
+        "4": {
+            "city": "Rio Grande do Sul",
+            "lat": -30.05,
+            "lng": -51.2
+        },
+        "16": {
+            "city": "Santa Catarina",
+            "lat": -27.58,
+            "lng": -48.52
+        },
+        "8": {
+            "city": "Paraná",
+            "lat": -25.42,
+            "lng": -49.32
+        }
+    }
+}
