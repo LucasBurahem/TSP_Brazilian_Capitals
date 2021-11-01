@@ -23,7 +23,7 @@ def mtz_model(distance_matrix):
     model.Z = pyomo_model.RangeSet(2, n)
 
     # AUXILIAR VARIABLES Z
-    model.u = pyomo_model.Var(model.M, within=pyomo_model.NonNegativeIntegers, bounds=(0, n - 1))
+    model.z = pyomo_model.Var(model.M, within=pyomo_model.NonNegativeIntegers, bounds=(0, n - 1))
 
     # DISTANCE MATRIX
     model.c = pyomo_model.Param(model.N, model.M, initialize=lambda model, i, j: distance_matrix[i - 1][j - 1])
@@ -41,7 +41,7 @@ def mtz_model(distance_matrix):
     model.const2 = pyomo_model.Constraint(model.M, rule=go_to_constraint)
 
     def eliminate_subtour(model, i, j):
-            return model.u[i] - model.u[j] + model.x[i, j] * len(model.u) <= len(model.u) - 1
+            return model.z[i] - model.z[j] + model.x[i, j] * len(model.z) <= len(model.z) - 1
 
     model.const3 = pyomo_model.Constraint(model.Z, model.M, rule=eliminate_subtour)
 
